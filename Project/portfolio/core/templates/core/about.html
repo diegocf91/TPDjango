@@ -1,0 +1,35 @@
+{% extends 'core/base.html' %}
+
+{% block title %}Sobre nosotros {% endblock %}
+
+{% block background %}{% load static %} {% static 'core/img/about2.jpg' %} {% endblock %}
+
+{% block headers %}
+<h1>Nuestra Historia</h1>
+<span class="subheading">Expertos en identificar y mitigar riesgos para impulsar tu crecimiento. </span>
+{% endblock %}
+{% block content %} 
+
+    <div class="col-lg-2 col-md-2 offset-lg-0.5">
+        <br><br><br><br><br><br>
+        <img class="img-fluid avatar" src="{% static 'core/img/diego2.png' %}" alt=""><br><br><br>
+        <img class="img-fluid avatar" src="{% static 'core/img/martina2.png' %}" alt=""><br><br><br><br><br>
+        <img class="img-fluid avatar" src="{% static 'core/img/carla.png' %}" alt=""> <br><br><br><br><br>
+        <img class="img-fluid avatar" src="{% static 'core/img/consult.jpg' %}" alt="">
+    </div>
+    <div class="col-lg-7 col-md-8">
+        <h2 class="section-heading">Consultoria Django y Asoc.</h2> <hr>  
+        <p><strong>Diego Cortez - Consultor de Riesgos:</strong>
+            Diego Cortez, cofundador de nuestra consultora, es un visionario en la gestión de riesgos. Con más de una década de experiencia, Diego ha asesorado a empresas en la identificación y mitigación de riesgos estratégicos. Su enfoque innovador y su profundo conocimiento han impulsado a nuestros clientes hacia la resiliencia y el éxito a largo plazo.
+        </p> <br><br>   
+         <p><strong>Martina Hollman - Experta en Consultoría de Datos:</strong>
+            Martina Hollman, socia y pionera en el ámbito de la consultoría de datos, lidera nuestro equipo de expertos en análisis e interpretación de datos. Su capacidad para transformar información en conocimiento estratégico ha sido fundamental para las compañías que buscan aprovechar al máximo su información. Martina guía a nuestros clientes hacia decisiones informadas y estratégicas.
+        </p> <br><br>      
+        <p><strong>Carla Campos - Especialista en Modelado Empresarial:</strong>
+            Carla Campos, cofundadora y especialista en modelado empresarial, ha desempeñado un papel fundamental en el diseño de estrategias empresariales efectivas. Su habilidad para traducir complejidades empresariales en modelos accesibles y prácticos ha permitido a las empresas anticipar escenarios y optimizar sus operaciones. Carla es el motor detrás de soluciones empresariales inteligentes y sostenibles.
+        </p> <br><br>   
+        <p>Juntos, formamos un equipo integral que ofrece a las empresas una combinación única de experiencia en riesgos, consultoría de datos y modelado empresarial. Desde nuestra fundación en 2022, hemos estado comprometidos en impulsar el éxito de nuestros clientes a través de soluciones innovadoras y adaptadas a sus necesidades específicas.</p>
+        </p>
+    </div>
+
+{% endblock %}
